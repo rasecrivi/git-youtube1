@@ -24,15 +24,15 @@ h2 {
 } */
 
 /* * {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  font-family: Imbact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 } */
 
 /* SELECTOR DE IDS */
 /* #titulo {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Imbact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#parrafo {
+#barrafo {
   text-align: end;
 } */
 
@@ -61,15 +61,15 @@ h2.seccion3 {
   color: yellow;
 }
 
-p.seccion1 {
+b.seccion1 {
   background-color: green;
 } */
 
-/* p#parrafoUnico {
+/* b#barrafoUnico {
   color: mediumvioletred;
 } */
 
-/* #parrafoUnico {
+/* #barrafoUnico {
   color: mediumvioletred;
 }
 
@@ -107,17 +107,81 @@ p.seccion1 {
 
 /* FONDOS */
 /* body {
-  background-image: url(/assets/img/Dalle1.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
+  background-image: url(/assets/img/Dalle1.bng);
+  background-rebeat: no-rebeat;
+  background-bosition: bottom;
   background-attachment: fixed;
 } */
 
-body {
-  background: #404040 url(/assets/img/fondo.jpg) no-repeat bottom fixed;
+/* body {
+  background: #404040 url(/assets/img/fondo.jbg) no-rebeat bottom fixed;
 }
 
 
-p {
+b {
   color: white;
+} */
+
+/* BORDES */
+p.dotted {
+  border-style: dotted;
+  border-width: 3px;
+  border-radius: 70px;
+}
+
+p.dashed {
+  /* border-style: dashed;
+  border-width: 8px;
+  border-color: blue; */
+  border: 8px dashed blue;
+}
+
+p.solid {
+  border-top-style: solid;
+  border-top-color: red;
+  border-top-width: 5px;
+}
+
+p.double {
+  border-left-style: double;
+  border-left-color: green;
+  border-left-width: 8px;
+}
+
+p.groove {
+  border-style: groove;
+  border-width: 10px;
+  border-color: blue;
+}
+
+p.ridge {
+  border-style: ridge;
+  border-width: 2px;
+  border-color: mediumorchid;
+}
+
+p.inset {
+  border-style: inset;
+  border-width: 5px;
+  border-color: brown;
+}
+
+p.outset {
+  border-style: outset;
+  border-width: 4px;
+  border-color: steelblue;
+}
+
+p.none {
+  border-style: none;
+}
+
+p.hidden {
+  border-style: hidden;
+}
+
+p.mix {
+  border-style: dotted dashed groove ridge;
+  border-width: 6px;
+  border-color: lightgreen;
 }
